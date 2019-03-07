@@ -1,0 +1,11 @@
+{
+  "name": "js-utilities",
+  "version": "1.0.0",
+  "description": "JS Utility Functions",
+  "main": "src/_index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quangdao Nguyen <quangdaonguyen@graydientcreative.com>",
+  "license": "ISC"
+}
