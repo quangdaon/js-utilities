@@ -27,3 +27,10 @@ export function randomWeighted(arr) {
         seed -= curr.weight;
     }
 }
+
+export default {
+    between: randomBetween,
+    arrayIndex: randomIndexInArray,
+    inArray: randomFromArray,
+    weighted: randomWeighted
+}
