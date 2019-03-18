@@ -1,6 +1,11 @@
-import Math2 from './math'; // I'll figure out this namespace later...
+import MathHelpers from './math';
 import Random from './random';
+import DOM from './dom';
 
-export default {
-    Math2, Random
+const Utils = {
+	MathHelpers,
+	Random,
+	DOM
 };
+
+export default Utils;
