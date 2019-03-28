@@ -51,7 +51,7 @@ export function inArray(arr) {
  * @param {Array.<{weight: number, value: T}>} arr
  * @example
  * // 20% chance of "Option 1"
- * Random.weighted([{value: 'Option 1', weight: 1}, {value: 'Option 2', weight: 5}])
+ * Random.weighted([{value: 'Option 1', weight: 0.1}, {value: 'Option 2', weight: 0.5}])
  * @example
  * // 1% chance of "Option 3"
  * Random.weighted([{value: 'Option 1', weight: 50}, {value: 'Option 2', weight: 49}, {value: 'Option 3', weight: 1}])
